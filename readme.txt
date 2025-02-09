@@ -1,3 +1,10 @@
+当前推送：
+git add .
+git commit -m "Add */."
+git push origin master
+
+
+
 
 2025-2-9
 之前nginx可能和github推送的端口冲突，需要修改配置文件

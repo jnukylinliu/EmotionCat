@@ -1,0 +1,6 @@
+﻿  EmotionCat.cpp
+  server.cpp
+D:\EmotionCat\EmotionCat\server.cpp(75,38): warning C4101: “e”: 未引用的局部变量
+  StudentManager.cpp
+  正在生成代码...
+  EmotionCat.vcxproj -> D:\EmotionCat\x64\Debug\EmotionCat.exe

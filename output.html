@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output Viewer</title>
+</head>
+<body>
+    <h1>Output from File</h1>
+    <pre id="output">加载中...</pre>
+
+    <h2>输入内容：</h2>
+    <input type="text" id="userInput" placeholder="输入一些文本...">
+    <button onclick="sendInput()">提交</button>
+
+    <script>
+        // 创建一个异步函数来获取服务器上的输出
+        async function fetchOutput() {
+            try {
+                // 向 C++ 服务器发送 GET 请求
+                const response = await fetch("http://localhost:8080/get_output");
+
+                // 检查响应是否成功
+                if (!response.ok) {
+                    throw new Error("网络错误");
+                }
+
+                // 获取返回的文本内容
+                const data = await response.text();
+
+                // 将获取到的内容显示在页面上的 <pre> 元素中
+                document.getElementById("output").textContent = data;
+                console.log("获取到的输出:", data);  // 添加调试信息
+            } catch (error) {
+                // 如果发生错误，显示错误信息
+                document.getElementById("output").textContent = "错误：无法获取输出数据。";
+                console.error("Error fetching output:", error);
+            }
+        }
+
+        // 创建一个异步函数来发送用户输入的内容到 C++ 服务器
+        async function sendInput() {
+            const input = document.getElementById("userInput").value;
+
+            console.log("用户输入:", input);  // 添加调试信息
+
+            try {
+                // 向 C++ 服务器发送 POST 请求，传递用户输入
+                const response = await fetch("http://localhost:8080/send_input", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ user_input: input })
+                });
+
+                // 检查响应是否成功
+                if (!response.ok) {
+                    throw new Error("网络错误");
+                }
+
+                // 获取返回的文本内容（可根据需要进行不同处理）
+                const data = await response.text();
+                alert("输入已提交：" + data);
+            } catch (error) {
+                alert("提交失败：" + error.message);
+            }
+        }
+
+        // 页面加载时自动调用该函数获取输出
+        window.onload = fetchOutput;
+    </script>
+</body>
+</html>

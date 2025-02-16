@@ -1,3 +1,20 @@
+# EmotionCat.py
+
+# 导入 real-trading.py 模块
+import real_trading
+
+# 调用 real-trading.py 中的 start_trading() 函数
+real_trading.start_trading()
+
+# 其他代码...
+
+
+
+
+
+
+
+'''
 from plot_charts import plot_and_save_charts
 import matplotlib.pyplot as plt
 
@@ -16,3 +33,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+'''

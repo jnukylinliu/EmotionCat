@@ -69,11 +69,11 @@ w_updays = w_other
 w_index = w_other
 
 # 输入数据
-volume = [17300, 16359, 16772,18198]
-limit_up = [140, 84, 95,74]  
-limit_down = [2, 68, 17,244]  
-consecutive_up_days = [3, -1, 1,-1]
-index_change = [0.56, -0.12, 0.85,-0.42]
+volume = [17300, 16359, 16772,18198,17150]
+limit_up = [140, 84, 95,74,200]  
+limit_down = [2, 68, 17,244,94]  
+consecutive_up_days = [3, -1, 1,-1,1]
+index_change = [0.56, -0.12, 0.85,-0.42,0.43]
 
 # 计算每一组的综合得分
 total_scores = []

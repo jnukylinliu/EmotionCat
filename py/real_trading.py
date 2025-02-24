@@ -41,23 +41,38 @@ def start_trading():
     # 创建一个新的布局，3行1列，第1列是3个折线图
     fig, ax = plt.subplots(3, 1, figsize=(10, 15))  # 使用 3 行 1 列的布局
 
-    # 1. Emotion Values 图 (纵坐标 -1 到 1)
-    ax[0].plot(x, emotion_values, label='Emotion Values', color='blue')
+
+
+    # 创建渐变色
+    cmap = plt.cm.RdYlGn_r  # 从绿色到红色的渐变色
+    # 归一化 emotion_values，确保值在 [0, 1] 范围内
+    norm = plt.Normalize(vmin=0, vmax=1)
+    # 1. Emotion Values 图 (纵坐标 0 到 1)
+    bars = ax[0].bar(x, emotion_values, label='Emotion Values', color=cmap(norm(emotion_values)))
+    # 在每个条形上方标记 y 数据（当值不为 0 时）
+    for i, value in enumerate(emotion_values):
+        if value != 0:  # 如果值不为 0，才显示标签
+            ax[0].text(x[i], value + 0.02, f'{value:.2f}', ha='center', va='bottom', fontsize=12, color='black')
     ax[0].set_title('Emotion Values', fontsize=16)
     ax[0].set_xlabel('天数', fontsize=14)
     ax[0].set_ylabel('Emotion Values', fontsize=14)
-    ax[0].set_ylim(-1, 1)
+    ax[0].set_ylim(0, 1)
     ax[0].tick_params(axis='both', labelsize=12)
     ax[0].grid(True)
 
+
+
+
+
     # 2. 仓位占比图 (纵坐标 0 到 1)
-    ax[1].plot(x, position_ratio, label='仓位占比', color='green')
+    ax[1].bar(x, position_ratio, label='仓位占比', color='green')
     ax[1].set_title('仓位占比', fontsize=16)
     ax[1].set_xlabel('天数', fontsize=14)
     ax[1].set_ylabel('仓位占比', fontsize=14)
     ax[1].set_ylim(0, 1)
     ax[1].tick_params(axis='both', labelsize=12)
     ax[1].grid(True)
+
 
     # 3. 实盘跟随涨跌幅图 (纵坐标根据点位值变化)
     ax[2].plot(x, price_changes, label='实盘涨跌幅', color='red')

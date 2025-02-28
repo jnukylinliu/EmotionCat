@@ -46,6 +46,6 @@ ssh -T git@github.com
 
 exe在debug目录下，可直接运行
 
-
+优化了ui界面的显示，增加了条形图和纵坐标
 
 

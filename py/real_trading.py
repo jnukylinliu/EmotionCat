@@ -24,7 +24,7 @@ def load_data_from_file(filename):
     return emotion_values, position_ratio, price_changes
 
 def start_trading():
-    print("开始实盘交易...")
+    print("开始...")
     
     # 读取数据文件
     filename = 'data.xlsx'  # 数据文件的路径
@@ -53,9 +53,9 @@ def start_trading():
     for i, value in enumerate(emotion_values):
         if value != 0:  # 如果值不为 0，才显示标签
             ax[0].text(x[i], value + 0.02, f'{value:.2f}', ha='center', va='bottom', fontsize=12, color='black')
-    ax[0].set_title('Emotion Values', fontsize=16)
+    ax[0].set_title('Emotion Factor', fontsize=16)
     ax[0].set_xlabel('天数', fontsize=14)
-    ax[0].set_ylabel('Emotion Values', fontsize=14)
+    ax[0].set_ylabel('Emotion Factor', fontsize=14)
     ax[0].set_ylim(0, 1)
     ax[0].tick_params(axis='both', labelsize=12)
     ax[0].grid(True)

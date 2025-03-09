@@ -1,0 +1,57 @@
+#include <iostream>
+#include <map>
+#include <string>
+
+int main() {
+    // 1. 创建一个空的 map
+    std::map<int, std::string> student_map;
+
+    // 2. 向 map 中添加元素
+    student_map[1] = "Alice";  // 通过键 1 插入值 "Alice"
+    student_map[2] = "Bob";    // 通过键 2 插入值 "Bob"
+    student_map[3] = "Charlie";  // 通过键 3 插入值 "Charlie"
+    
+    // 3. 输出 map 中的元素
+    std::cout << "Student Map:" << std::endl;
+    for (const auto& pair : student_map) {
+        std::cout << "ID: " << pair.first << ", Name: " << pair.second << std::endl;
+    }
+    
+    // 4. 查找某个键对应的值
+    int search_id = 2;
+    auto it = student_map.find(search_id);
+    if (it != student_map.end()) {
+        std::cout << "Found student with ID " << search_id << ": " << it->second << std::endl;
+    } else {
+        std::cout << "Student with ID " << search_id << " not found." << std::endl;
+    }
+
+    // 5. 修改某个键对应的值
+    student_map[3] = "Chuck";  // 修改键为 3 对应的值
+
+    // 6. 输出修改后的 map
+    std::cout << "Student Map after modification:" << std::endl;
+    for (const auto& pair : student_map) {
+        std::cout << "ID: " << pair.first << ", Name: " << pair.second << std::endl;
+    }
+
+    // 7. 删除某个键
+    student_map.erase(1);  // 删除键为 1 的元素
+
+    // 8. 输出删除后的 map
+    std::cout << "Student Map after erasing ID 1:" << std::endl;
+    for (const auto& pair : student_map) {
+        std::cout << "ID: " << pair.first << ", Name: " << pair.second << std::endl;
+    }
+
+    // 9. 获取 map 的大小
+    std::cout << "Size of map: " << student_map.size() << std::endl;  // 输出：2
+
+    // 10. 清空 map
+    student_map.clear();
+
+    // 11. 输出清空后的 map 大小
+    std::cout << "Size of map after clear: " << student_map.size() << std::endl;  // 输出：0
+
+    return 0;
+}

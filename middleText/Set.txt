@@ -1,0 +1,54 @@
+#include <iostream>
+#include <set>
+#include <algorithm> // 用于std::sort
+
+int main() {
+    // 1. 创建一个空的 set
+    std::set<int> numbers;
+
+    // 2. 向 set 中添加元素
+    numbers.insert(10);  // 添加元素到 set
+    numbers.insert(20);
+    numbers.insert(30);
+    numbers.insert(40);
+    numbers.insert(50);
+
+    // 3. 输出 set 中的元素
+    std::cout << "Set elements: ";
+    for (int num : numbers) {
+        std::cout << num << " ";  // 输出：10 20 30 40 50
+    }
+    std::cout << std::endl;
+
+    // 4. 获取 set 的大小
+    std::cout << "Size of set: " << numbers.size() << std::endl;  // 输出：5
+
+    // 5. 查找元素是否存在
+    if (numbers.find(30) != numbers.end()) {
+        std::cout << "30 is found in the set!" << std::endl;
+    } else {
+        std::cout << "30 is not found in the set!" << std::endl;
+    }
+
+    // 6. 删除元素
+    numbers.erase(20);  // 删除元素20
+
+    // 7. 输出删除后的 set
+    std::cout << "Set after erasing 20: ";
+    for (int num : numbers) {
+        std::cout << num << " ";  // 输出：10 30 40 50
+    }
+    std::cout << std::endl;
+
+    // 8. 查找元素的个数（对于 set 来说，元素的个数要么是1，要么是0，因为 set 不允许重复元素）
+    std::cout << "Count of 40: " << numbers.count(40) << std::endl;  // 输出：1
+    std::cout << "Count of 25: " << numbers.count(25) << std::endl;  // 输出：0
+
+    // 9. 清空 set
+    numbers.clear();
+
+    // 10. 输出清空后的 set 大小
+    std::cout << "Size of set after clear: " << numbers.size() << std::endl;  // 输出：0
+
+    return 0;
+}

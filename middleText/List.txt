@@ -1,0 +1,72 @@
+#include <iostream>
+#include <list>
+#include <algorithm> // 用于std::sort
+
+int main() {
+    // 1. 创建一个空的 list
+    std::list<int> numbers;
+
+    // 2. 向 list 中添加元素
+    numbers.push_back(10);  // 向 list 末尾添加元素
+    numbers.push_back(20);
+    numbers.push_back(30);
+    numbers.push_back(40);
+    numbers.push_back(50);
+
+    // 3. 输出 list 中的元素
+    std::cout << "List elements: ";
+    for (int num : numbers) {
+        std::cout << num << " ";  // 输出：10 20 30 40 50
+    }
+    std::cout << std::endl;
+
+    // 4. 获取 list 的大小
+    std::cout << "Size of list: " << numbers.size() << std::endl;  // 输出：5
+
+    // 5. 访问第一个和最后一个元素
+    std::cout << "First element: " << numbers.front() << std::endl;  // 输出：10
+    std::cout << "Last element: " << numbers.back() << std::endl;    // 输出：50
+
+    // 6. 修改某个元素
+    auto it = numbers.begin();
+    std::advance(it, 2);  // 将迭代器移动到第3个元素（30）
+    *it = 100;  // 将第3个元素修改为100
+
+    // 7. 输出修改后的 list
+    std::cout << "List after modification: ";
+    for (int num : numbers) {
+        std::cout << num << " ";  // 输出：10 20 100 40 50
+    }
+    std::cout << std::endl;
+
+    // 8. 删除元素
+    numbers.pop_front();  // 删除第一个元素（10）
+    numbers.pop_back();   // 删除最后一个元素（50）
+
+    // 9. 输出删除后的 list
+    std::cout << "List after pop_front and pop_back: ";
+    for (int num : numbers) {
+        std::cout << num << " ";  // 输出：20 100 40
+    }
+    std::cout << std::endl;
+
+    // 10. 在指定位置插入元素
+    it = numbers.begin();
+    std::advance(it, 1);  // 将迭代器移动到第2个位置
+    numbers.insert(it, 25);  // 在第2个位置插入元素25
+
+    // 11. 输出插入后的 list
+    std::cout << "List after insert: ";
+    for (int num : numbers) {
+        std::cout << num << " ";  // 输出：20 25 100 40
+    }
+    std::cout << std::endl;
+
+    // 12. 清空 list
+    numbers.clear();
+
+    // 13. 输出清空后的 list 大小
+    std::cout << "Size of list after clear: " << numbers.size() << std::endl;  // 输出：0
+
+    return 0;
+}

@@ -1,0 +1,47 @@
+#include <iostream>
+#include <unordered_set>
+
+int main() {
+    // 1. 创建一个空的 unordered_set
+    std::unordered_set<int> number_set;
+
+    // 2. 向 unordered_set 中添加元素
+    number_set.insert(10);   // 插入 10
+    number_set.insert(20);   // 插入 20
+    number_set.insert(30);   // 插入 30
+    number_set.insert(20);   // 插入 20（重复的元素，会被忽略）
+
+    // 3. 输出 unordered_set 中的元素
+    std::cout << "Number Set:" << std::endl;
+    for (const auto& number : number_set) {
+        std::cout << number << std::endl;
+    }
+
+    // 4. 查找某个元素是否存在
+    int search_number = 20;
+    if (number_set.find(search_number) != number_set.end()) {
+        std::cout << "Found " << search_number << " in the set." << std::endl;
+    } else {
+        std::cout << search_number << " not found in the set." << std::endl;
+    }
+
+    // 5. 删除某个元素
+    number_set.erase(10);  // 删除 10
+
+    // 6. 输出删除后的 unordered_set
+    std::cout << "Number Set after erasing 10:" << std::endl;
+    for (const auto& number : number_set) {
+        std::cout << number << std::endl;
+    }
+
+    // 7. 获取 unordered_set 的大小
+    std::cout << "Size of unordered_set: " << number_set.size() << std::endl;  // 输出：2
+
+    // 8. 清空 unordered_set
+    number_set.clear();
+
+    // 9. 输出清空后的 unordered_set 大小
+    std::cout << "Size of unordered_set after clear: " << number_set.size() << std::endl;  // 输出：0
+
+    return 0;
+}

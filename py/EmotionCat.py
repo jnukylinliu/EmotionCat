@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QLabel, QLineEdit, QGridLayout, QVBoxLayout
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QLabel, QLineEdit, QGridLayout, QVBoxLayout, QPushButton, QFileDialog
 from PyQt5.QtCore import QDateTime, Qt
 from PyQt5.QtGui import QFont  # 导入 QFont
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
@@ -43,13 +43,31 @@ class MyApp(QMainWindow):
         # **5. 绘制图表**
         self.plot_data()
 
+        # 创建截图按钮
+        #self.screenshot_button = QPushButton('截图当前窗口')
+        #self.screenshot_button.clicked.connect(self.take_screenshot)
+        #layout.addWidget(self.screenshot_button)
+
         # **6. 显示窗口**
         self.setWindowState(Qt.WindowMaximized)
         self.setWindowFlags(self.windowFlags() & ~Qt.WindowFullScreen)
         self.show()
 
 
+    def take_screenshot(self):
+        """截图当前窗口并保存"""
+        # 获取整个窗口的截图
+        screen = QApplication.primaryScreen()
+        screenshot = screen.grabWindow(self.winId())  # 捕获整个窗口（包括标题栏）
 
+        # 弹出保存文件对话框
+        file_dialog = QFileDialog(self)
+        file_dialog.setDefaultSuffix('png')
+        file_name, _ = file_dialog.getSaveFileName(self, "保存截图", "", "PNG 文件 (*.png);;所有文件 (*.*)")
+
+        if file_name:
+            screenshot.save(file_name, 'PNG')  # 保存截图为PNG格式
+            print(f"截图已保存: {file_name}")
 
 
     def create_display_frame(self, layout):

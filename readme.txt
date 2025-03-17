@@ -10,6 +10,8 @@ git add .
 git commit -m "Add */."
 git push origin master
 
+删除缓存：
+git rm --cached -r .
 
 
 

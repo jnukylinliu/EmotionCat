@@ -13,3 +13,4 @@ pyinstaller --onefile EmotionCat.py
 
 
 
+不适合打包，太大了。

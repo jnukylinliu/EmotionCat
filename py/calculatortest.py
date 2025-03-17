@@ -10,7 +10,38 @@ w_other = 0
 
 import logging
 from strategy_func import get_score_volume, get_score_limitup, get_score_limitdown, get_score_updays, get_score_index
-# from calculate_scorestest import calculate_total_scores
+import pandas as pd
+import os
+
+
+def save_results_to_excel(result, file_path="1data.xlsx", sheet_name="Trading Data"):
+    """
+    将计算结果保存到 Excel 文件
+    """
+    try:
+        new_data = pd.DataFrame({"Emotion Values": [result]})
+
+        if os.path.exists(file_path):
+            with pd.ExcelWriter(file_path, engine='openpyxl', mode='a', if_sheet_exists='overlay') as writer:
+                existing_data = pd.read_excel(file_path, sheet_name=sheet_name, engine='openpyxl')
+
+                if "Emotion Values" not in existing_data.columns:
+                    existing_data["Emotion Values"] = None
+
+                updated_data = pd.concat([existing_data, new_data], ignore_index=True)
+                updated_data.to_excel(writer, sheet_name=sheet_name, index=False)
+        else:
+            with pd.ExcelWriter(file_path, engine='openpyxl', mode='w') as writer:
+                new_data.to_excel(writer, sheet_name=sheet_name, index=False)
+
+        logging.info("结果已成功保存到 1data.xlsx 文件中")
+
+    except Exception as e:
+        logging.error(f"保存结果时发生错误: {e}")
+        raise
+
+
+
 
 # 配置日志记录
 logging.basicConfig(

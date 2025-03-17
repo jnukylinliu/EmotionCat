@@ -1,16 +1,238 @@
-2025-03-16 12:49:31 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
-2025-03-16 12:49:31 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
-2025-03-16 12:49:31 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
-2025-03-16 12:49:31 - INFO - ¼ÆËã½á¹û: -0.16
-2025-03-16 12:49:58 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
-2025-03-16 12:49:58 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
-2025-03-16 12:49:58 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
-2025-03-16 12:49:58 - INFO - ¼ÆËã½á¹û: -0.16
-2025-03-16 12:50:42 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
-2025-03-16 12:50:42 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
-2025-03-16 12:50:42 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
-2025-03-16 12:50:42 - INFO - ¼ÆËã½á¹û: -0.16
-2025-03-16 14:07:59 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
-2025-03-16 14:07:59 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
-2025-03-16 14:07:59 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
-2025-03-16 14:07:59 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 14:18:18 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 14:18:18 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 14:18:18 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 14:18:18 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 14:18:19 - INFO - ±£´æ°´Å¥±»µã»÷
+2025-03-17 14:18:19 - INFO - ¿ªÊ¼±£´æ½á¹û...
+2025-03-17 14:18:19 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 14:18:19 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 14:18:19 - INFO - ¼ÆËãÍê³É, ½á¹û: -0.16
+2025-03-17 14:18:19 - ERROR - ±£´æ½á¹ûÊ±·¢Éú´íÎó: module 'calculatortest' has no attribute 'save_emotion_values_to_txt'
+2025-03-17 14:21:00 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 14:21:00 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 14:21:00 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 14:21:00 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 14:21:01 - INFO - ±£´æ°´Å¥±»µã»÷
+2025-03-17 14:21:01 - INFO - ¿ªÊ¼±£´æ½á¹û...
+2025-03-17 14:21:01 - ERROR - ±£´æ½á¹ûÊ±·¢Éú´íÎó: 'CalculatorApp' object has no attribute 'alculate'
+ä¿å­˜æŒ‰é’®è¢«ç‚¹å‡»
+2025-03-17 14:21:36 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 14:21:36 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 14:21:36 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 14:21:36 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 14:21:37 - INFO - ±£´æ°´Å¥±»µã»÷
+2025-03-17 14:21:37 - INFO - ¿ªÊ¼±£´æ½á¹û...
+2025-03-17 14:21:37 - INFO - ¼ÆËãÍê³É, ½á¹û: <bound method CalculatorApp.calculate of <__main__.CalculatorApp object at 0x000001AAAEE4AD40>>
+2025-03-17 14:21:37 - ERROR - ±£´æ½á¹ûÊ±·¢Éú´íÎó: 'CalculatorApp' object has no attribute 'save_emotion_values_to_txt'
+ä¿å­˜æŒ‰é’®è¢«ç‚¹å‡»
+2025-03-17 14:27:43 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 14:27:43 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 14:27:43 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 14:27:43 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 14:27:44 - INFO - ±£´æ°´Å¥±»µã»÷
+2025-03-17 14:27:44 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 14:27:44 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 14:27:44 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 14:27:44 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 14:27:44 - INFO - ¼ÆËãÍê³É, ½á¹û: -0.16
+2025-03-17 14:27:44 - INFO - ³É¹¦±£´æ½á¹ûµ½ emotion_values.txt
+2025-03-17 14:27:44 - INFO - ½á¹ûÒÑ³É¹¦±£´æµ½ÎÄ¼ş
+ä¿å­˜æŒ‰é’®è¢«ç‚¹å‡»
+2025-03-17 14:33:44 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 14:33:44 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 14:33:44 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 14:33:44 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 14:33:45 - INFO - ±£´æ°´Å¥±»µã»÷
+2025-03-17 14:33:45 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 14:33:45 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 14:33:45 - INFO - ¼ÆËãÍê³É, ½á¹û: -0.16
+2025-03-17 14:33:46 - ERROR - ±£´æ½á¹ûÊ±·¢Éú´íÎó: [Errno 13] Permission denied: '1data.xlsx'
+2025-03-17 14:34:22 - INFO - ±£´æ°´Å¥±»µã»÷
+2025-03-17 14:34:22 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 14:34:22 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 14:34:22 - INFO - ¼ÆËãÍê³É, ½á¹û: -0.16
+2025-03-17 14:34:22 - INFO - ½á¹ûÒÑ³É¹¦±£´æµ½ 1data.xlsx ÎÄ¼şÖĞ
+ä¿å­˜æŒ‰é’®è¢«ç‚¹å‡»
+ä¿å­˜æŒ‰é’®è¢«ç‚¹å‡»
+2025-03-17 15:02:31 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:02:31 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:02:31 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:02:31 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 15:02:44 - INFO - ±£´æ°´Å¥±»µã»÷
+2025-03-17 15:02:44 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:02:44 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:02:44 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:02:44 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 15:02:45 - INFO - ½á¹ûÒÑ³É¹¦±£´æµ½ 1data.xlsx ÎÄ¼şÖĞ
+ä¿å­˜æŒ‰é’®è¢«ç‚¹å‡»
+2025-03-17 15:11:29 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:11:29 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:11:35 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:11:35 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:11:49 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:11:49 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:10 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:10 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:11 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:11 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:11 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:11 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:11 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:11 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:12 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:12 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:12 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:12 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:12 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:12 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:12 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:12 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:12 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:12 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:12 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:12 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:13 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:13 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:13 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:13 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:13 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:13 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:13 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:13 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:12:13 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:12:13 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:13:25 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:13:25 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:13:25 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:13:25 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 15:13:32 - INFO - ±£´æ°´Å¥±»µã»÷
+2025-03-17 15:13:32 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:13:32 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:13:32 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:13:32 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 15:13:32 - INFO - ½á¹ûÒÑ³É¹¦±£´æµ½ 1data.xlsx ÎÄ¼şÖĞ
+ä¿å­˜æŒ‰é’®è¢«ç‚¹å‡»
+2025-03-17 15:19:05 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:19:05 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:19:05 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:19:05 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 15:19:14 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:19:14 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:19:14 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:19:14 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 15:19:15 - INFO - ½á¹ûÒÑ³É¹¦±£´æµ½ 1data.xlsx ÎÄ¼şÖĞ
+2025-03-17 15:19:17 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:19:17 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:19:17 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:19:17 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 15:19:17 - INFO - ½á¹ûÒÑ³É¹¦±£´æµ½ 1data.xlsx ÎÄ¼şÖĞ
+2025-03-17 15:21:57 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:21:57 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:21:57 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:21:57 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 15:21:58 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:21:58 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:21:58 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:21:58 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 15:21:58 - INFO - ½á¹ûÒÑ³É¹¦±£´æµ½ 1data.xlsx ÎÄ¼şÖĞ
+2025-03-17 15:22:18 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:22:18 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:22:18 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:22:18 - INFO - ¼ÆËã½á¹û: -0.16
+2025-03-17 15:22:18 - INFO - ½á¹ûÒÑ³É¹¦±£´æµ½ 1data.xlsx ÎÄ¼şÖĞ
+2025-03-17 15:31:25 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:31:25 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:31:25 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:31:25 - INFO - Emotion Factor: -0.16, ĞÂÔöÊäÈëÖ®ºÍ: 2.0
+2025-03-17 15:31:27 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:31:27 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:31:27 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:31:27 - INFO - Emotion Factor: -0.16, ĞÂÔöÊäÈëÖ®ºÍ: 2.0
+2025-03-17 15:32:42 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:32:42 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:32:42 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:32:42 - INFO - Emotion Factor: -0.16, ĞÂÔöÊäÈëÖ®ºÍ: 2.0
+2025-03-17 15:36:20 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:36:20 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:36:20 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:36:20 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 2.0
+2025-03-17 15:39:18 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:39:18 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:39:18 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:39:18 - ERROR - ¼ÆËãÊ±·¢Éú´íÎó: name 'pd' is not defined
+2025-03-17 15:39:43 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:39:43 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:39:43 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:39:43 - ERROR - ¼ÆËãÊ±·¢Éú´íÎó: name 'pd' is not defined
+2025-03-17 15:40:40 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:40:40 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:40:40 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:40:40 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 0.12029411764705883
+2025-03-17 15:42:39 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:42:39 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:42:39 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:42:39 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 12.0%
+2025-03-17 15:46:19 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:46:19 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:46:19 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:46:19 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:50:26 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:50:26 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:50:26 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:50:26 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:50:27 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:50:27 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:50:27 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:50:27 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:50:27 - ERROR - ±£´æ½á¹ûÊ±·¢Éú´íÎó: [Errno 13] Permission denied: '1data.xlsx'
+2025-03-17 15:50:57 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:50:57 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:50:57 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:50:57 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:52:02 - WARNING - ÊäÈë´íÎó: ÊäÈë²»ÄÜÎª¿Õ
+2025-03-17 15:52:02 - ERROR - ÊäÈë´íÎó: ÊäÈë²»ÄÜÎª¿Õ
+2025-03-17 15:52:21 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:52:21 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:52:21 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:52:21 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:52:22 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:52:22 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:52:22 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:52:22 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:55:20 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:55:20 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:55:20 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:55:20 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:55:21 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:55:21 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:55:21 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:55:21 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:57:02 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:57:02 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:57:02 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:57:02 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:57:03 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:57:03 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:57:03 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:57:03 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:57:03 - ERROR - ±£´æ½á¹ûÊ±·¢Éú´íÎó: Emotion Factor ¼ÆËãÊ§°Ü
+2025-03-17 15:57:34 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:57:34 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:57:34 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:57:34 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:57:35 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:57:35 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:57:35 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:57:35 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 15:59:35 - INFO - ÓÃ»§ÊäÈë: volume=1.0, limit_up=1.0, limit_down=1.0, consecutive_up_days=1.0, index_change=1.0
+2025-03-17 15:59:35 - INFO - ´«ÈëµÄÖµ: volume=1.0, consecutive_up_days=1.0
+2025-03-17 15:59:35 - INFO - È¨ÖØ: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-17 15:59:35 - INFO - Emotion Factor: -0.16, ×ÜÊÕÒæÂÊ: 10.0%
+2025-03-17 19:52:13 - INFO - ÓÃ»§ÊäÈë: volume=15730.0, limit_up=270.0, limit_down=65.0, consecutive_up_days=2.0, index_change=0.19
+2025-03-17 19:52:13 - INFO - ´«ÈëµÄÖµ: volume=15730.0, consecutive_up_days=2.0
+2025-03-17 19:52:13 - INFO - È¨ÖØ: w_volume=0.25, w_limitup=0.1875, w_limitdown=0.1875, w_updays=0.1875, w_index=0.1875
+2025-03-17 19:52:13 - INFO - Emotion Factor: 0.43, ×ÜÊÕÒæÂÊ: 7.6%
+2025-03-17 19:57:20 - INFO - ÓÃ»§ÊäÈë: volume=15730.0, limit_up=270.0, limit_down=65.0, consecutive_up_days=2.0, index_change=0.19
+2025-03-17 19:57:20 - INFO - ´«ÈëµÄÖµ: volume=15730.0, consecutive_up_days=2.0
+2025-03-17 19:57:20 - INFO - È¨ÖØ: w_volume=0.25, w_limitup=0.1875, w_limitdown=0.1875, w_updays=0.1875, w_index=0.1875
+2025-03-17 19:57:20 - INFO - Emotion Factor: 0.43, ×ÜÊÕÒæÂÊ: 7.6%

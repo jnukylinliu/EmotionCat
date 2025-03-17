@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\EmotionCat-master\debug\EmotionCat.exe</FullPath>
+      <FullPath>D:\EmotionCat\debug\EmotionCat.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

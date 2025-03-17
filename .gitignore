@@ -2,3 +2,5 @@
 .vs/
 *.db
 *.ipch
+EmotionCat/x64/Debug/EmotionCat.exe.recipe
+debug/EmotionCat.exe

@@ -55,7 +55,7 @@ exe在debug目录下，可直接运行
 
 优化py界面，优化EmotionFactor计算方式
 
-
+增加基于transformaer模型的py代码，用于训练计算Emotion Factor的模型，还不成熟，数据集不够。
 
 
 

@@ -236,3 +236,11 @@
 2025-03-17 19:57:20 - INFO - 传入的值: volume=15730.0, consecutive_up_days=2.0
 2025-03-17 19:57:20 - INFO - 权重: w_volume=0.25, w_limitup=0.1875, w_limitdown=0.1875, w_updays=0.1875, w_index=0.1875
 2025-03-17 19:57:20 - INFO - Emotion Factor: 0.43, 总收益率: 7.6%
+2025-03-18 21:16:40 - INFO - 用户输入: volume=15197.0, limit_up=264.0, limit_down=43.0, consecutive_up_days=3.0, index_change=0.11
+2025-03-18 21:16:40 - INFO - 传入的值: volume=15197.0, consecutive_up_days=3.0
+2025-03-18 21:16:40 - INFO - 权重: w_volume=0.2, w_limitup=0.2, w_limitdown=0.2, w_updays=0.2, w_index=0.2
+2025-03-18 21:16:40 - INFO - Emotion Factor: 0.49, 总收益率: 8.7%
+2025-03-19 19:35:19 - INFO - 用户输入: volume=14664.0, limit_up=155.0, limit_down=278.0, consecutive_up_days=-1.0, index_change=-0.1
+2025-03-19 19:35:19 - INFO - 传入的值: volume=14664.0, consecutive_up_days=-1.0
+2025-03-19 19:35:19 - INFO - 权重: w_volume=0.25, w_limitup=0.1875, w_limitdown=0.1875, w_updays=0.1875, w_index=0.1875
+2025-03-19 19:35:19 - INFO - Emotion Factor: 0.01, 总收益率: 9.4%

@@ -1,4 +1,0 @@
-﻿  main.cpp
-D:\transformer\transformer\main.cpp(64,25): warning C4305: “初始化”: 从“double”到“float”截断
-D:\transformer\transformer\main.cpp(33,49): warning C4101: “e”: 未引用的局部变量
-  transformer.vcxproj -> D:\transformer\x64\Debug\transformer.exe

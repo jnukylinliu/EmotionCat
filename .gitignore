@@ -2,5 +2,17 @@
 .vs/
 *.db
 *.ipch
+
+# Ignore build output files for EmotionCat
 EmotionCat/x64/Debug/EmotionCat.exe.recipe
-debug/EmotionCat.exe
+EmotionCat/x64/Debug/EmotionCat.exe
+EmotionCat/x64/Debug/*.log
+EmotionCat/x64/Debug/*.ilk
+EmotionCat/x64/Debug/*.pdb
+EmotionCat/x64/Debug/*.tlog
+
+# Ignore other common files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates

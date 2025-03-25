@@ -68,7 +68,7 @@ int main() {
     float predicted_temp = predictor.predictNextTemperature(temperatures);
 
     // 输出预测的温度
-    std::cout << "Predicted temperature for the next day: " << predicted_temp << "°C" << std::endl;
-
+    std::cout << "Transformer Model Predicted temperature for the next day: " << predicted_temp << "°C" << std::endl;
+    
     return 0;
 }
